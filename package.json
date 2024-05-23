@@ -9,11 +9,11 @@
     "build": "parcel build",
     "build-gh": "parcel build --public-url 'https://hani239.github.io/my-portfolio'",
     "predeploy": "npm run build-gh",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://hani239.github.io/my-portfolio"
+    "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
   },
   "author": "Microsoft",
   "license": "ISC",
@@ -21,8 +21,8 @@
     "url": "https://github.com/microsoft/codespaces-teaching-template-js/issues"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "eslint": "^8.23.0",
